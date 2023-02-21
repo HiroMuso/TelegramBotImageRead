@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramBotImageRead", "TelegramBotImageRead\TelegramBotImageRead.csproj", "{80C1109C-1DC3-4335-AE83-AE1DC08877BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80C1109C-1DC3-4335-AE83-AE1DC08877BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80C1109C-1DC3-4335-AE83-AE1DC08877BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80C1109C-1DC3-4335-AE83-AE1DC08877BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80C1109C-1DC3-4335-AE83-AE1DC08877BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F60AFD5B-76A2-4520-A8A3-F0C05875F108}
+	EndGlobalSection
+EndGlobal

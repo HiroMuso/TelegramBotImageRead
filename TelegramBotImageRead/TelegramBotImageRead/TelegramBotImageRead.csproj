@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Telegram.Bot" Version="18.0.0" />
+    <PackageReference Include="Tesseract.Net.SDK" Version="4.5.411" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Даниил\.nuget\packages\tesseract.net.sdk\4.5.411\build\x86\Tesseract.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Даниил\.nuget\packages\tesseract.net.sdk\4.5.411\build\x64\tesseract.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Даниил\.nuget\packages\tesseract.net.sdk\4.5.411\build\..\content\tessdata\configs\config.cfg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Даниил\.nuget\packages\tesseract.net.sdk\4.5.411\build\..\content\tessdata\eng.traineddata" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Даниил\.nuget\packages\tesseract.net.sdk\4.5.411\build\..\content\tessdata\equ.traineddata" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Даниил\.nuget\packages\tesseract.net.sdk\4.5.411\build\..\content\tessdata\osd.traineddata" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Даниил\.nuget\packages\tesseract.net.sdk\4.5.411\build\..\content\tessdata\pdf.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Даниил\.nuget\packages\tesseract.net.sdk\4.5.411\build\..\content\tessdata\pdf.ttx" />
+  </ItemGroup>
+
+</Project>
