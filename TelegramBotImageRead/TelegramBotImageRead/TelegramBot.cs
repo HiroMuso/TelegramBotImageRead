@@ -119,7 +119,7 @@ namespace TelegramBotImageRead
                     });
                     await bot_client.SendTextMessageAsync(chat_id, "Выберите язык который изображён на Фото", replyMarkup: reply_keyboard_markup, cancellationToken: cancellationToken);
                 }
-            } else if(message.Text != null && user_model.Any(x => x.Key == chat_id) && message.Text != "Вернуться") //&& user_model.Where(x => x.Key == chat_id).SingleOrDefault().Value.is_spell_check_text)
+            } else if(message.Text != null && user_model.Any(x => x.Key == chat_id) && message.Text != "Вернуться")
             {
                 if (user_model.Where(x => x.Key == chat_id).SingleOrDefault().Value.is_spell_check_text)
                 {
