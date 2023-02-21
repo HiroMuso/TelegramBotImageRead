@@ -17,7 +17,7 @@ namespace TelegramBotImageRead
     internal class TelegramBot
     {
         public static Dictionary<long, TelegramUserModel> user_model = new Dictionary<long, TelegramUserModel>();
-        public static string token_bot = "5846676526:AAHv8jW4n93fjUMm3TSqfquWow0gINCJH9I";
+        public static string token_bot = "";
         public static string folder_path = "TelegramPhoto";
 
         static async Task Main(string[] args)
